@@ -1,0 +1,18 @@
+section.pt-block {
+	background: #ffffff;
+}
+
+section.pt-block img {
+	display: block;
+	width: 100% auto;
+	margin: 0 auto;
+}
+
+@media(max-width: 540px) {
+	section.pt-block .col {
+		display: block;
+		min-width: 50% !important;
+		float: left;
+		margin-bottom: 10px;
+	}
+}

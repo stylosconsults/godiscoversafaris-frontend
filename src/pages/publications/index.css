@@ -1,0 +1,15 @@
+.publication ul {
+    list-style: none;
+    padding: 0;
+    line-height: 160%;
+}
+
+.publication ul li {
+    margin-bottom: 6px;
+    line-height: 200%;
+    font-weight: 400;
+}
+
+.publication ul li a {
+    font-weight: 400;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon-1.png" /> -->
+    <link rel="icon" type="image/jpeg" href="../src/assets/assetss/godiscover.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-defautl.jpeg" /> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <script
+      src="https://ap-gateway.mastercard.com/checkout/version/61/checkout.js"
+      data-error="errorCallback"
+      data-cancel="cancelCallback"
+      data-complete="completeCallback"
+    >
+    </script>
+    <script src="./script.js"></script>
+    <title>GoDiscover Safaris</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <script
+      src="https://ap-gateway.mastercard.com/checkout/version/61/checkout.js"
+      data-error="errorCallback"
+      data-cancel="cancelCallback"
+      data-complete="completeCallback"
+    ></script> -->
+
+    <div id="root"></div>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

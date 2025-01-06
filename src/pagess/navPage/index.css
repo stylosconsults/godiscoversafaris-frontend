@@ -1,0 +1,44 @@
+/* Navbar with Maximum Transparency */
+.navbar-custom {
+  height: 80px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(6, 89, 82, 0.1); /* Initial transparent background */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow for definition */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+/* Navbar Hover Effect */
+.navbar-custom:hover {
+  background: rgba(6, 89, 82, 0.5); /* Darker background on hover */
+}
+
+/* Scrolled Navbar Style */
+.navbar.scrolled {
+  background-color: #065952;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 80px;
+  padding: 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* More prominent shadow on scroll */
+}
+
+/* Carousel Style */
+.carousel-container {
+  position: relative;
+  z-index: 1; /* Lower than navbar */
+  margin-top: -80px; /* Align carousel with navbar */
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.home-body {
+  height: 40vh;
+}

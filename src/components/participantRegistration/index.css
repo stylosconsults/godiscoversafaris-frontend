@@ -1,0 +1,35 @@
+/*this is for the whole form page*/
+.intro-col{
+    background-color: #558a54;
+    text-align: center;
+    padding:5px;
+}
+.second-intro{
+    border: 15px solid #e9940c;
+    text-align: center;
+    color: #558a54;
+}
+.para002{
+    color: #558a54;
+    font-style: italic;
+}
+
+/*this si fpor the participant form */
+.participant-form {
+    box-shadow: 1px 1px 3px #4b5651af;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #558a54;
+  }
+  
+  .form-control-lg {
+    margin-bottom: 10px;
+  }
+  .additional-text {
+    margin-top: 20px;
+    color: #558a54;
+  }

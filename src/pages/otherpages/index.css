@@ -1,0 +1,42 @@
+.contact-covid-large {
+  font-size: 32px !important;
+  font-weight: 700;
+}
+
+.contact input.form-control {
+  outline: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+  background: #f0eeee !important;
+  border: 1px solid #f0eeee;
+  height: 45px !important;
+}
+
+.contact input.form-control:hover,
+.contact input.form-control:focus,
+.contact input.form-control:active,
+
+.contact textarea.form-control:hover,
+.contact textarea.form-control:active,
+.contact textarea.form-control:focus {
+  border: 1px solid #f6a643;
+}
+
+.contact textarea.form-control {
+  resize: none;
+  height: 150px;
+  border: 2px solid #f0eeee;
+  background: #f0eeee !important;
+}
+
+.contact button.btn,
+.contact button.btn:hover,
+.contact button.btn:active,
+.contact button.btn:focus {
+  background: #558a54;
+  border: 4px solid #558a54;
+  color: #ffffff;
+  height: 45px;
+  transition: all 0.6s ease;
+}

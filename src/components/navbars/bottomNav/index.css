@@ -1,0 +1,86 @@
+/* General link styling */
+.navbar a {
+  color: white !important; /* Ensures all links are white by default */
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #f4d03f !important; /* Changes the color to yellow on hover */
+  text-decoration: underline !important; /* Adds underline on hover */
+}
+
+.navbar-link.active {
+  opacity: 1;
+  color: #00aaff !important; /* Active link color */
+}
+
+/* Dropdown specific styling */
+.custom-navbar .dropdown-menu a {
+  color: black !important; /* Makes dropdown links black by default */
+  font-weight: 500;
+}
+
+.custom-navbar .dropdown-menu a:hover {
+  color: #f4d03f !important; /* Changes dropdown links to yellow on hover */
+  background-color: rgba(0, 0, 0, 0.1); /* Adds a subtle background on hover */
+}
+
+.custom-navbar .dropdown-menu a.active {
+  color: #065952 !important; /* Active dropdown link color */
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1); /* Highlight active link background */
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 480px) {
+  .navbar-toggler {
+    color: white !important;
+    margin-left: auto;
+    z-index: 2000;
+    border-radius: 20px;
+  }
+
+  .navbar {
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    width: 89vw;
+    background-color: #065952 !important; /* Mobile navbar background */
+    color: gray;
+    position: absolute;
+    z-index: 100;
+    border-radius: 20px;
+    right: 20%;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    padding-top: 20px;
+  }
+
+  .custom-navbar .btn-covid {
+    display: none;
+  }
+
+  .navbar a {
+    color: white !important; /* Ensures mobile links are white */
+  }
+}
+
+/* Active styling for the Destinations parent link */
+.dropdown.active > .dropdown-toggle {
+  color: #00aaff !important; /* Active color for parent */
+  font-weight: bold;
+}
+
+/* Highlight active dropdown items */
+.dropdown-menu .sub-link.active {
+  color: #065952 !important;
+  font-weight: bold;
+}

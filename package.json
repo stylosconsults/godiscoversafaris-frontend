@@ -1,0 +1,67 @@
+{
+  "name": "godiscover",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tawk.to/tawk-messenger-react": "^2.0.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@tinymce/tinymce-react": "^3.7.0",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.2",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
+    "jwt-decode": "^3.1.1",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-datetime-picker": "^3.0.4",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-helmet": "^6.1.0",
+    "react-html-parser": "^2.0.2",
+    "react-loading-skeleton": "^2.1.1",
+    "react-on-screen": "^2.1.1",
+    "react-query": "^3.39.3",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.2.2",
+    "react-scripts": "3.4.3",
+    "react-scroll-to-top": "^3.0.0",
+    "react-select": "^5.8.0",
+    "react-select-country-list": "^2.2.3",
+    "react-slideshow-image": "^3.3.0",
+    "react-social-sharing": "^3.3.0",
+    "react-spinners": "^0.9.0",
+    "react-sweet-progress": "^1.1.2",
+    "react-toastify": "^6.1.0",
+    "react-twitter-embed": "^3.0.3",
+    "react-ui-cards": "^2.0.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

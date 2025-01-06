@@ -1,0 +1,47 @@
+/* Center the captions */
+.carousel-caption-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* Set up a smooth crossfade between carousel items */
+  .carousel .carousel-item {
+    opacity: 0; /* Start invisible */
+    transition: opacity 2s ease-in-out; /* Crossfade duration */
+  }
+  
+  /* Make active items visible with smooth opacity transition */
+  .carousel-item.active {
+    opacity: 1; /* Show active items */
+    transition: opacity 2s ease-in-out; /* Crossfade duration */
+  }
+  
+  /* Set initial styles for images */
+  .carousel-item img {
+    transform: scale(1) !important; /* Normal size */
+    transition: transform 6s ease !important; /* Smooth zoom transition over 6 seconds */
+    pointer-events: none !important; /* Disable pointer events to ensure zoom works even on hover */
+  }
+  
+  /* Active state: zoom in slowly */
+  .carousel-item.active img {
+    transform: scale(1.1); /* Zoom in slightly when active */
+  }
+  
+  /* Hide previous and next controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  
+  .carousel-caption-centered button {
+    font-size: 1.5rem; /* Adjust the font size */
+    padding: 15px 30px; /* Increase the padding to make the button larger */
+    border-radius: 5px; /* Optionally add rounded corners */
+    color: #fff;
+  }

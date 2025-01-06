@@ -1,0 +1,42 @@
+.faq .title {
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.faq h4.title {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.faq p {
+  text-align: justify;
+  text-align-last: left;
+  width: 100%;
+  font-weight: 300;
+  color: #333333;
+  line-height: 25px;
+}
+
+.faq li {
+  color: #333333;
+  line-height: 25px;
+}
+
+.faq span.bold {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500 !important;
+  color: #000000;
+}
+
+.faq a{
+  color: #004085 !important;
+  /* font-size:24px !important; */
+  font-weight: 500;
+}
+
+.faq p.title {
+  cursor: pointer;
+}

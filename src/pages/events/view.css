@@ -1,0 +1,48 @@
+.events-header {
+  min-height: 70vh;
+  background: url('../../assets/assetss/background_event.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.events-view {
+  margin-top: -60vh;
+}
+
+.events-view .rightbar .custom-btn {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: #15A1DC;
+  color: #ffffff;
+  text-align: center;
+}
+
+.events-view .col-lg-7 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.events-status-box {
+  position: relative;
+  top: -38px;
+  float: right;
+  padding: 5.5px 20px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.events-section .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.price-event{
+  color:#ffffff !important
+}
+
+.events-box {
+  transition: all 0.8s ease;
+}

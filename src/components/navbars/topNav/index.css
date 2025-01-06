@@ -1,0 +1,15 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.icon-nav {
+  width: 100%;
+}
+.social-icon {
+  display: inline-block;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}

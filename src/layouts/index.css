@@ -1,0 +1,59 @@
+.social-top {
+  font-size: 19px;
+}
+
+@media(max-width: 780px) {
+  .top-bar-navbar {
+    height: 37px !important;
+    text-align: center !important;
+  }
+  
+  .contact-top {
+    text-align: center !important;
+    margin-top: -10px;
+  }
+  
+  .p-2{
+    color: white !important;
+  }
+  
+  .contact-top {
+    font-size: 7.56px;
+  }
+
+  .email-info, .tel {
+    width: 49.88%;
+    display: inline-block !important;
+    margin-left: -6px;
+    font-weight: 500;
+  }
+
+  .email-info:hover, .tel:hover {
+    color:  #ec7500 !important;
+  }
+
+  .email-info .fa-envelope, .tel .fa-phone {
+    margin-left: -20px;
+  }
+
+  .social-top {
+    font-size: 11px;
+    display: block;
+    text-align: center !important;
+    font-weight: 500;
+  }
+}
+
+
+@media(max-width: 425px) {
+  .contact-top a.email-info{
+    display: none !important;
+  }
+   .tel {
+    width: 80.88%;
+  }
+
+  .social-top {
+    margin-left: -20px;
+  }
+}

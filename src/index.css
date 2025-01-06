@@ -1,0 +1,443 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap');
+
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+  scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    line-height: 25px;
+    font-size: 14px !important;
+    background: #ffffff;
+
+    /* background: url('../src/assets/img/imigongo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.main::-webkit-scrollbar {
+  	width: 7px;
+}
+
+.main::-webkit-scrollbar-track {
+  	background: #241e20;
+}
+
+.main::-webkit-scrollbar-thumb {
+  	background: #f6a643;
+  	border-radius: 6px;
+}
+
+.color-yellow {
+    color: #f6a643 !important;
+}
+
+::selection {
+    background: #f6a643;
+    color: #ffffff;
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration-color: none !important;
+    text-decoration: none !important;
+    outline: none;
+    color: inherit;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500 !important;
+}
+#navBarMenu a, a:hover, a:active, a:focus{
+    font-weight: 900 !important;
+}
+.btn-instagram {
+    background-color: #fb3958 !important;
+    border: 2px solid #fb3958 !important;
+}
+
+input.form-control,
+input.form-control:hover,
+input.form-control:focus,
+input.form-control:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    height: 40px;
+}
+
+textarea.form-control,
+textarea.form-control:hover,
+textarea.form-control:active,
+textarea.form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    height: 80px;
+    resize: none;
+}
+
+select.custom-select,
+select.custom-select:hover,
+select.custom-select:active,
+select.custom-select:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    height: 40px;
+    resize: none;
+}
+
+.btn, .btn:hover, .btn:active, .btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    font-weight: 300;
+}
+
+.btn-light {
+    color: #000000 !important;
+    background: #cac9c9 !important;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-weight: 500;
+    color: #000000 !important;
+}
+
+p, strong, span, small, td, li {
+    font-weight: 300;
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+table tr th {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+table tr td {
+    font-size: 12px !important;
+    color: #060606 !important;
+}
+
+.badge {
+    font-size: 12px !important;
+}
+.alert-warning{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    text-align: center;
+}
+
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    text-align: center;
+}
+
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: center;
+}
+
+.link{
+    color: #004085;
+    font-size: 16px;
+    padding:5px
+}
+
+
+.main {
+    /* Fill the available space */
+    height: 100vh;
+    
+    /* Make the children of the element closer to the viewport */
+    perspective: 2px;
+    
+    /* Hide the overflow */
+    overflow-x: hidden;
+  }
+  
+  /* General styling  */
+  .section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  /* Different background colors for demo purpose */
+  .static-one {
+    background-color: #fff;
+  }
+  
+  
+  .parallax::after {
+    /* Position the pseudo-element to fill the parent */
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    /* Scale the image to full */
+    background-size: cover;
+    
+    /* Move the element back then scale the element, it helps to appears more slowly */
+    transform: translateZ(-1px) scale(1.7);
+    
+    /* Set the parallax section before the other elements. */
+    z-index: -1;
+  }
+  
+  /* Different background images */
+  .parallax-one::after {
+    background-image: url('../src/assets/assetss/bg-work.jpg');
+    box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.5);
+  }
+  
+  .parallax-two::after {
+    background-image: url('../src/assets/assetss/maountain.jpeg');
+  }
+
+
+  /* mine  */
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../src/assets/assetss/event-image2.jpeg");
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+:global(nav.navbar.scrolled) {
+  padding: 0px 0;
+  background-color: #065952;
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+  top: 0;
+  border: none;
+}
+.custom-dropdown {
+  color: black !important;
+}
+
+/*topnav*/
+.search{
+  border-bottom: 1px solid rgb(113, 112, 112);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0px 0px 0px 10px;
+  position: absolute;
+  color: white;
+  background-color: transparent;
+}
+.logo {
+  width: 150px;
+  margin-left: 50%;
+}
+.animate-button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.animate-button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.ev-1:hover,
+.ev-2:hover,
+.ev-3:hover,
+.ev-4:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-body {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.card .card-body .back {
+  transform: rotateY(180deg);
+}
+.sub-link {
+  color: black;
+}
+/*events cards css */
+.events-parent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../src/assets/assetss/event-image2.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.custom-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-cards .btn-primary {
+  background-color: transparent;
+  color: #555;
+}
+.custom-cards .card-text {
+  font-size: 11px;
+}
+.event-container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.608),
+      rgba(8, 8, 8, 0.544)
+    ),
+    url("../src/assets/assetss/image-events.jpeg");
+  height: 80vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.event-container div {
+  max-width: 80%;
+}
+.event-container div .btn-primary {
+  background-color: rgb(68, 37, 15);
+  border: 1px solid white;
+  border-radius: 10px 50px 10px 10px;
+}
+.event-container div .btn-primary:hover {
+  background-color: transparent;
+}
+
+.partners-header {
+  color: white;
+  text-align: center;
+}
+
+/* design for home Page */
+.home-styles {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/assets/assetss/Akagera-Hippos.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+  background-color: #856404;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  margin-left: auto;
+}
+.navbar a.active {
+  color: #07d258 !important;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+.footer {
+  background-color: #558a54;
+  color: white;
+}
+
+/*Participants table styling*/
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: #558a54;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+  background-color: #e5e5e5;
+}
+
+/* Fonts and general styles */
+th {
+  font-weight: 700;
+  color: #e9940c !important;
+}
+.reg-header{
+  font-weight: 700;
+  color: #e9940c !important;
+}
+
+p, strong, span, small, td, li {
+  font-weight: 400;
+  font-size: 16px !important;
+  color: #000000 !important;
+}
+
+/* Button styles */
+.button {
+  background-color: #e9940c;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #d1830b;
+}
+
+
+
+  
