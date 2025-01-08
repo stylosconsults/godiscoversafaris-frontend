@@ -105,3 +105,35 @@
 .img-small {
     width: 100%;
 }
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .gallery-image {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-image {
+      flex: 1 1 100%;
+    }
+  }
+
+  
+  
