@@ -43,7 +43,7 @@ export const NewsBox = () => {
 												<NewsHeaderCard
 													key={indx}
 													href={`/blog/${oneNews.slug}`}
-													thumbnail={oneNews.image}
+													thumbnail={oneNews.images[0]}
 													title={oneNews.title}
 													// author={oneNews.author.organization}
 													date={moment(oneNews.createdAt).format('MMMM d, y')}
